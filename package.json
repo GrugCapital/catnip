@@ -1,0 +1,53 @@
+{
+  "name": "catnip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grug-Capital/catnip.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Grug-Capital/catnip/issues"
+  },
+  "homepage": "https://github.com/Grug-Capital/catnip#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^5.2.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "hardhat-etherscan-abi": "^0.2.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.13",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.7.20"
+  },
+  "dependencies": {
+    "@ethereumjs/common": "^2.6.2",
+    "@ethereumjs/tx": "^3.5.0",
+    "@flashbots/ethers-provider-bundle": "^0.4.3",
+    "axios": "^0.26.0",
+    "bignumber.js": "^9.0.2",
+    "chalk": "^2.4.1",
+    "node-fetch": "^3.2.0",
+    "solc": "^0.8.12",
+    "web3": "^1.7.0"
+  }
+}
